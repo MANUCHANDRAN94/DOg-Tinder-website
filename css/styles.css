@@ -56,7 +56,7 @@ h1 {
 /* Feature area */
 
 #features {
-    padding : 7% 15%;
+    padding : 2% 15%;
 
 }
 
@@ -78,5 +78,51 @@ p {
 .fea-icon{
     font-size: 5rem;
     padding-bottom: 10px;
-    color: #ff4c68;
+    color: #f39aa8;
+}
+
+.fea-icon:hover {
+    color:  #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    padding: 1% 10% 3% 10%;
+    font-family: 'Montserrat', sans-serif;
+    color: floralwhite;
+    background-color: #f39aa8;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding:2% 20% 3% 20%;
+    line-height: 3rem;
+    
+}
+
+.testimonial-img {
+    width: 20%;
+    border-radius: 100%;
+}
+
+.testimonial-detail {
+    display: block;
+    font-weight: 600;
+    padding-top: 1%;
+    
+}
+
+#press {
+    background-color: #f39aa8;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.press-img {
+    width: 10vw;
+    margin: 1%;
+  
 }
